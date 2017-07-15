@@ -3,8 +3,8 @@
     text-align: center;
  }
 
-header{
-  color: white;
+a:visited {
+  color: darkblue;
 }
 
 h1 {
@@ -22,7 +22,14 @@ h3 {
   font-weight: bold;
 }
 
-#DesignedInNY {
+.backgroundImage {
+  background-image: url('../pictures/the-flatiron-building.png');
+  background-repeat: no-repeat;
   color: white;
-  
+}
+
+.bottomNav p {
+  backbround-color: gray;
+  text-align: left;
+  font-size: 11px;
 }
