@@ -1,6 +1,7 @@
- body {
+body {
     font-family: Helvetica; sans-serif;
     text-align: center;
+    font-size: 14px;
  }
 
 a:visited {
@@ -13,7 +14,7 @@ h1 {
 }
 
 h2 {
-  font-size: 32px:
+  font-size: 32px;
   font-weight: bold;
 }
 
@@ -22,14 +23,23 @@ h3 {
   font-weight: bold;
 }
 
+nav {
+  font-size: 18px;
+  color: white;
+}
+
 .backgroundImage {
+  margin-top: 10px;
   background-image: url('../pictures/the-flatiron-building.png');
   background-repeat: no-repeat;
   color: white;
 }
 
-.bottomNav p {
-  backbround-color: gray;
+.bottomNav {
+  background-color: dimgray;
   text-align: left;
-  font-size: 11px;
+}
+
+.fineText {
+  font-size:11px;
 }
